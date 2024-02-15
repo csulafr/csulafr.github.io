@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+    <link rel="stylesheet" href="assets/style/app.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-JhACrUQ7lEg5Mdc5mQXwedoUq7uC7hE6AmrsxEO2+6ic/kJax5FiAJ8r4hBhpGuFUfbMeFlMhmePfmXhk/Zzjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <title>Sula Profile</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><i class="fas fa-user-edit"></i>     MY BIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#biodata">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#achievement">Achievement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="cointainer">
+        <div class="profile">
+          <img
+            class="rounded-circle profileImage"
+            src="assets/image/profileImage.jpeg"
+            alt=""
+          />
+          <h2>Hello, I'm Sula !</h2>
+          <h5></h5>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,64L30,74.7C60,85,120,107,180,133.3C240,160,300,192,360,176C420,160,480,96,540,101.3C600,107,660,181,720,192C780,203,840,149,900,138.7C960,128,1020,160,1080,170.7C1140,181,1200,171,1260,149.3C1320,128,1380,96,1410,80L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+    <section id="biodata" class="biodata">
+      <h1 class="text-center">BIODATA</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Hello, my name is Cut Sula Fhatia Rahma (2208107010048). I am currently a 
+            second-year student at Syiah Kuala University, majoring in 
+            Computer Science. I am passionate about programming languages 
+            and aspire to become a back-end web developer. I am also a member 
+            of the department's student association and actively participate in 
+            various campus events. I am excited to learn and grow, both academically and personally, 
+            during my time here at Syiah Kuala University.
+          </div>
+          
+          <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                <h5 class="subNameHeading fw-bold">EDUCATION</h5>
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">Started on Jul 2010</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    SDN 03 Jakarta
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal1"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Achievement
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">champion in the class</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2016</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2016</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    SMPN 107 South Jakarta
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal2"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Achievement
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">champion in the class</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2019</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2019</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  >
+                    SMAN 38 South Jakarta
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal3"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Achievement
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">champion in the class</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2022</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2022</p>
+                  <button
+                    type="button"
+                    class="btn btn-dark itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4"
+                  >
+                    Syiah Kuala University
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal4"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Faculty of Mathematics and Natural Sciences, Majoring In Computer Science
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Achievement</h5>
+                          1. participant as an Orga bla blan
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Still On Going</p>
+                </div>
+              </div>
+          
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Kode MK</th>
+                  <th scope="col">Mata Kuliah</th>
+                  <th scope="col">SKS</th>
+                  <th scope="col">Nilai</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">INF206</th>
+                  <td>REKAYASA PERANGKAT LUNAK</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF210</th>
+                  <td>SISTEM INFORMASI GEOGRAFIS</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF216</th>
+                  <td>TEORI GRAF</td>
+                  <td>2</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF220</th>
+                  <td>KOMUNIKASI DATA</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF218</th>
+                  <td>STRUKTUR DATA DAN ALGORITMA</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF224</th>
+                  <td>PEMROGRAMAN BERBASIS WEB</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF228</th>
+                  <td>ETIKA TEKNOLOGI INFORMASI</td>
+                  <td>2</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">INF314</th>
+                  <td>VISUALISASI DATA</td>
+                  <td>3</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievement" class="achievement">
+      <div class="container"></div>
+        <h1 style="color:#443b30" class="text-center">ACHIEVEMENT</h1>
+        <div class="container mx-auto">
+          <div class="row">
+            <div class="col-sm-4">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">Organization</div>
+                <div class="card-body">
+                  <h5 class="card-title">Department's Student Association </h5>
+                  <p class="card-text">
+                    Became a member of the association in the inter-institutional relations section
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">Events</div>
+                <div class="card-body">
+                  <h5 class="card-title">Informatics Festival</h5>
+                  <p class="card-text">
+                    Serve as a committee member for the event twice and play 
+                    an active role in ensuring the success of the event
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">Skill</div>
+                <div class="card-body">
+                  <h5 class="card-title">Programming and Data Mining</h5>
+                  <p class="card-text">
+                    - Able to write simple code using C, Java, and Python programming languages
+                  </p>
+                  <p>
+                    - Able to use various data mining techniques such as clustering, classification, association rule mining to interpreting and visualizing data mining results to extract actionable insights
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- third -->
+      <svg
+        class="wavesss"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,0L48,53.3C96,107,192,213,288,234.7C384,256,480,192,576,181.3C672,171,768,213,864,245.3C960,277,1056,299,1152,298.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

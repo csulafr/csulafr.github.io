@@ -1,0 +1,165 @@
+body {
+    background: linear-gradient(#f5f5dc 0%, #bcb09c 40%, #8b8378 100%);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.profileImage {
+    width: 200px;
+}
+
+.profile h2 {
+    color: #443b30;
+    margin-top: 30px;
+}
+
+.profile h5 {
+    color: white;
+    transform: translateY(-10px);
+}
+
+.biodata {
+    color: #443b30;
+    background: linear-gradient(#ffffff 0%, #fffffedb 40%, #ffffff00 100%);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.biodata h1 {
+    margin-bottom: 40px;
+}
+
+.startEnd {
+   margin: 5px;
+}
+
+.achievement {
+    padding-top: 50px;
+    color: #443b30;
+    background: linear-gradient(#8b837800 0%, #bcb09c 40%, #f5f5dc 100%);
+}
+
+.achievement h1 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.contact-cointainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: -100px;
+}
+
+.ikonsurat {
+    color: black;
+    font-size: 200px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #443b30;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: -40px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 385px;
+    height: 6px;
+    background-color: #443b30;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px;
+    background-color: #bcb09c;
+}
+
+.contact-left textarea {
+    height: 100px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px sollid #ff994f;
+}
+
+.contact-inputs::placeholder {
+    color:  #443b30;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #443b30;
+    gap: 10 px;
+    border: none;
+    border-radius: 50px;
+    background-color: #bcb09c;
+    cursor: pointer;
+}
+
+.contact-left button img {
+    height: 15px;
+}
+
+@media (max-width:800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+    .contact-right {
+        display: none;
+    }
+}
+
+.footer {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.itemSosmed {
+    color: black;
+    font-size: 40px;
+    padding-top: -40px;
+    margin-right: 10px;
+}
+
+.contact {
+    margin-top: -100px;
+    background: linear-gradient(#f5f5dc 0%, #bcb09c 40%, #8b8378 100%);
+    background-color: black;
+}
+
+.watermark {
+    padding-top: 30px;
+}

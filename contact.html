@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+    <link rel="stylesheet" href="assets/style/app.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-JhACrUQ7lEg5Mdc5mQXwedoUq7uC7hE6AmrsxEO2+6ic/kJax5FiAJ8r4hBhpGuFUfbMeFlMhmePfmXhk/Zzjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <title>Sula Profile</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fas fa-user-edit"></i>     MY BIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#biodata">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#achievement">Achievement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="contact" class="footer">
+      
+        <div class="contact-cointainer">
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+              
+                <h2>Get In Touch With Me</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="425537be-2aa5-40e7-ac61-3dab0f0e39fe">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <h5 style="color: #bcb09c">..</h5><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+          <div class="contact-right">
+            <i class="fa-regular fa-envelope ikonsurat"></i>
+            <div class="container text-center">
+              <a class="itemSosmed" href="https://www.instagram.com/csulafr/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="itemSosmed" href="https://www.tiktok.com/@cutsula"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a class="itemSosmed" href="https://github.com/csulafr"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        <script src="assets/stylesheet/app.js"></script>
+          </div>
+        </div>
+        <p class="text-center watermark">Created by <a href="#">Sula</a></p>
+      </section>
+  </body>
+</html>
